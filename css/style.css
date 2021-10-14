@@ -1,0 +1,136 @@
+
+
+/* global variables */
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* css reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--violet);
+}
+
+main {
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* container */
+
+.container {
+  background-color: var(--violet);
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* top design */
+
+.top-design {
+  position: relative;
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 375px;
+}
+
+.logo {
+  width: 125px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.mockups {
+  width: 300px;
+  position: absolute;
+  top: 125px;
+  left: 40px;
+}
+
+/* .bg-mobile {
+  z-index: -1;
+  display: inline;
+}
+
+.bg-desktop {
+  display: none;
+} */
+
+/* bottom design */
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 20px 50px 0 50px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 35px 0 35px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  background-color: var(--white);
+  color: var(--violet);
+  width: 200px;
+  height: 30px;
+  padding: 18px;
+  border-radius: 20px;
+  margin: 20px 0 100px 0;
+}
+
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url("images/bg-desktop.svg")
+  }
+
+  /* .bg-mobile {
+    display: none;
+  }
+
+  .bg-desktop {
+    display: inline;
+    z-index: -1;
+  } */
+}
