@@ -122,7 +122,7 @@ i:hover {
 @media (min-width: 1024px) {
   body {
     background-image: url(../images/bg-desktop.svg);
-    background-size: cover;
+    background-size: auto 155%;
   }
   /* Body Grid */
   header {
