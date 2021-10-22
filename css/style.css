@@ -40,7 +40,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 /* top design */
@@ -122,75 +121,50 @@ i:hover {
 @media (min-width: 1024px) {
   body {
     background-image: url(../images/bg-desktop.svg);
-    background-size: auto 155%;
+    background-position: 0 0;
+    background-size: auto 100vh;
+    display: flex;
+    flex-direction: column;
   }
-  /* Body Grid */
-  header {
-    grid-area: 1/1/2/2;
-    padding-left: 94px;
-  }
-  .mockups {
-    grid-area: 2/1/3/2;
-  }
-  main {
-    grid-area: 2/1/3/3;
-    height: 559px;
-  }
-  footer {
-    grid-area: 3/1/4/3;
-  }
-  /* Container Grid */
   .logo {
     width: 200px;
   }
   .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    max-width: 1440px;
-    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
   }
   .mockups {
-    grid-area: 1/1/2/2;
-    justify-self: end;
+    width: 100%;
   }
   .inner-container {
-    grid-area: 1/2/2/3;
+    min-width: 448px;
+    max-width: 35%;
     text-align: left;
-    position: relative;
-    
   }
   h1 {
     font-size: 40px;
+    letter-spacing: 0;
     line-height: 60px;
-    font-weight: 400;
   }
-  .register, .icons-container {
-    margin-left: 40px;
+  p {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
   }
   .register {
-    width: 200px;
     height: 56px;
-    box-shadow: 2px 4px 9px 3px rgba(0,0,0,0.26);
-    border-radius: 28px;
     font-size: 18px;
     line-height: 27px;
+    border-radius: 28px;
+    margin-left: 40px;
   }
   .icons-container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 81px;
-    margin-right: 70px;
+    margin-right: 80px;
   }
-  .fa-facebook {
-    font-size: 2.333rem;
-  }
-  .fa-twitter {
-    font-size: 2.333rem;
-  }
-  .fa-instagram {
-    font-size: 2.333rem;
-  }
-  footer {
-    margin: 0;
+  .fab {
+    font-size: 40px;
   }
 }
+
