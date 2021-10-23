@@ -17,10 +17,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   background-color: var(--violet);
   background-image: url(../images/bg-mobile.svg);
@@ -42,7 +38,7 @@ main {
   align-items: center;
 }
 
-/* top design */
+/* mobile layout */
 
 header {
   padding: 38px 0 60px 40px;
@@ -56,17 +52,15 @@ header {
   width: 90%;
 }
 
-/* bottom design */
-
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
   padding: 60px 40px 16px 40px;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding: 0 40px 24px 40px;
