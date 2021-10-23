@@ -101,7 +101,7 @@ i {
 i:hover {
   color: var(--soft-magenta);
   cursor: pointer;
-  transform: scale(1.08);
+  transform: scale(1.12);
   transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
