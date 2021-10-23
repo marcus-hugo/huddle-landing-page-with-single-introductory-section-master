@@ -81,21 +81,28 @@ p {
   padding-top: 10px;
   margin-bottom: 63px;
   display: inline-block;
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .register:hover {
   background-color: var(--soft-magenta);
   color: #fff;
   cursor: pointer;
+  transform: scale(1.08);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
 }
 
 i {
   padding: 5px;
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 i:hover {
   color: var(--soft-magenta);
   cursor: pointer;
+  transform: scale(1.08);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 /* footer */
@@ -108,7 +115,9 @@ i:hover {
 
 .attribution a {
   color: var(--soft-magenta);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
+
 
 /* Desktop Layout */
 
