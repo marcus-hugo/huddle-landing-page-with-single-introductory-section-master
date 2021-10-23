@@ -54,7 +54,7 @@ background-position: 0 0;
 background-size: auto 100vh;
 ```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 Would like to practice uising BEM for my next project.  I am currently taking Kevin Powell's course Conquering Responsive Layouts. 
